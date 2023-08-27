@@ -9,3 +9,4 @@ utils:
 design:
 * create a S42 card design
 * favicon
+* fix last team logos
