@@ -1,5 +1,5 @@
 import {
-  createWebHistory,
+  createWebHashHistory,
   createRouter
 } from 'vue-router'
 import SeasonOverview from './components/SeasonOverview.vue';
@@ -14,7 +14,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
 })
 
