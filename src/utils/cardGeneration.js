@@ -16,8 +16,8 @@ export function generateCard(
   let playerImageImage = new Image();
 
   // image loading code ...
-  templateImage.src = `/images/templates/${selectedSeason.id}.png`;
-  teamLogoImage.src = `/images/teams/${selectedTeam.logo}`;
+  templateImage.src = `images/templates/${selectedSeason.id}.png`;
+  teamLogoImage.src = `images/teams/${selectedTeam.logo}`;
   playerImageImage.src = playerImage;
 
   // Replace Colors
