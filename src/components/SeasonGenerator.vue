@@ -58,7 +58,7 @@ export default {
       season: seasons[this.$route.params.seasonId],
       selectedPosition: '',
       selectedTeam: { name: 'Default', logo: 'team-logo.png' },
-      playerImage: '/images/blank-player.png', // Holds the selected player's image URL
+      playerImage: 'images/blank-player.png', // Holds the selected player's image URL
       uploadedImage: null,
       uploadedImageUrl: '',
       isModalOpen: false,
